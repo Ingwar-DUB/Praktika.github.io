@@ -1,0 +1,36 @@
+h1 {
+  color: red;
+}
+
+p.bluebox {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  margin-bottom: 100px;
+}
+
+span {
+  color: red;
+}
+
+h2 {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+h2.fatty {
+  padding: 50px;
+}
+
+li {
+  border: 1px solid black;
+}
+
+form {
+  width: 650px;
+}
+
+p.pform {
+  text-align: center;
+}
