@@ -2,65 +2,97 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WayUp</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Верстка современного сайта</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <header id="header" class="header">
+      <div class="container">
+        <img src="img/logo.png" alt="logo" class="logo" />
 
-    <header>
-      <img src="img/logo.jpg" alt="логотип" />
-      <h1>Вступление Н1</h1>
-      <p class="bluebox">Это текст моего второго домашнего задания</p>
-      <p>Не верится но мне уже удается писать свой <span> первый код на HTML</span></p>
-      <h2>Что дальше? Н2</h2>
-      <p>
-        Дальше я буду получать все больше и больше опыта в разработке сайтов,
-        чтобы достичь новых вершин!
-        <a href="http://www.google.ru/" target="_blank"
-          >Прочитать болше в Google</a
-        >
-      </p>
+        <div class="wrapper">
+          <div class="offer">
+            <h1 class="title">
+              С помощью верстки <br />
+              я создам ту жизнь, о которой <span>мечтаю!</span>
+            </h1>
+            <p class="intro">
+              Мои стремления + настойчивость позволят мне достичь чего угодно. Я
+              не верю в это. Я знаю это на 100%. Меня не остановить!
+            </p>
+            <a a href="#" class="btn">Двигаться к мечте!</a>
+          </div>
+          <div class="ellipse">
+            <img src="img/travel.png" alt="ellipse" class="travel" />
+          </div>
+        </div>
+      </div>
     </header>
-
-
-
-    <section>
-      <h2 class="fatty">Что я буду уметь?</h2>
-<div class="dform">
-      <form action="#">
-        <p class="pform">Я могу создавать вот такие замечательные формы</p>
-        <input type="text" placeholder="Имя" required />
-        <input type="email" placeholder="Емаил" required />
-        <input type="tel" placeholder="Телефон" required />
-        <button type="submit">Отправить</button>
-</div>
-        <p>А также я научился создавать списки</p>
-      </form>
-
-      <ul>
-        <li>с одним пунктом</li>
-        <li>с несколькими</li>
-        <li>и даже ТРЕМЯ!</li>
-      </ul>
+    <section id="forward" class="forward">
+      <div class="container">
+        <h2 class="forward-title">Что меня ждет впереди</h2>
+        <div class="skills">
+          <div class="skill-time">
+            <h3 class="skill-title">
+              Свободное время
+            </h3>
+            <p class="skill-text">
+              Мне нужно свободное время на семью и самое настоящее
+            </p>
+          </div>
+          <div class="skill-travel">
+            <h3 class="skill-title">
+              Яркие путешествия
+            </h3>
+            <p class="skill-text">
+              Работать откуда угодно - что может быть лучше?
+            </p>
+          </div>
+          <div class="skill-worth">
+            <h3 class="skill-title">
+              Создание ценности
+            </h3>
+            <p class="skill-text">
+              Нет ничего сильнее, чем жить не просто так, создавая ценность
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
+    <section id="ticket" class="ticket">
+      <div class="container">
+<h2 class="ticket-title">
+  Форма заказа билета в будущее
+</h2>
+<div class="ticket-form">
+ <form action="#" class="form">
+<input type="text" name="name" placeholder="Имя" class="input input-name" required>
+<input type="email" name="E-mail" placeholder="E-маил" class="input input-mail" required>
+<input type="tel" name="phone" placeholder="Телефон" class="input input-tel" required>
+<input type="text" name="comment" placeholder="Куда я полечу в ближайшее время?" class="input input-comment" required>
+ </form>
+<button type="submit" class="btn btn-long">Двигаться к мечте!</button>
+
+</div>
 
 
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container">
+<p class="rights"> © Все мои мечты защищены моим трудолюбием</p>
 
-    <footer>
-      <h2>Отличное начало!Н2</h2>
-
-      <a href="https://wayup.in/cabinet/course10/unit1/lesson2" target="_blank"
-        >ссылка на занятие</a
-      >
-      <br />
-      <p>А на работу к Вам возьмете после обучения?</p>
-      
+      </div>
     </footer>
+    <divc class="buter">
 
-
-
-
-
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/thhYv6-lz9A?autoplay=1&mute=1" 
+      frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </divc>
   </body>
 </html>

@@ -1,40 +1,230 @@
-img {
-  width: 150px;
+body {
+	padding: 0;
+	margin: 0;
 }
 
-h1 {
-  color: red;
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
 }
 
-p.bluebox {
-  background-color: blue;
-  color: white;
-  width: 100px;
-  margin-bottom: 100px;
+h1, h2, h3, h4, h5, h6, span {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+h1{
+	font-size: 37px;
 }
 
-span {
-  color: red;
+h2{
+	font-size: 30px;
 }
 
-h2 {
-  background-color: green;
-  color: white;
-  padding: 10px;
+h3{
+	font-size: 19px;
 }
 
-h2.fatty {
-  padding: 50px;
+span { 
+	font-size: 59px;
+	line-height: 0.6em;
+
 }
 
-li {
-  border: 1px solid black;
+header, footer p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 
-form {
-  width: 650px;
+.forward, .ticket {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	
 }
 
-p.pform {
-  text-align: center;
+
+
+header{
+background: #4ebefe; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #4ebefe 0%, #378fd9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #4ebefe 0%,#378fd9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #4ebefe 0%,#378fd9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding-top: 66px;
+color: white;
+padding-bottom: 144px;
+}
+ 
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 140px;
+	width: 560px;
+}
+
+.intro {
+	margin-bottom: 40px;
+	width: 415px;
+
+}
+.btn {
+background: #FFD429 ;
+color: black;
+display: block;
+width: 222px;
+padding: 19px;
+text-align: center;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 15px;
+
+
+}
+.btn:hover {
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+}
+
+
+
+
+
+.ellipse {
+width: 519px;
+height: 519px;
+background: #41A5EB;
+border: 75px solid #5CB2EE ;
+border-radius: 100%;
+margin-top: 60px;
+}
+
+
+.travel {
+	position: relative;
+	top: -30px;
+	left: -40px;
+}
+
+
+.forward {
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+.forward-title, .skill-title, .skill-text {
+	text-align: center;}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+
+.skill-time {
+width: 300px;
+background: url('../img/time-machine.png') no-repeat top ;
+padding-top: 100px;
+}
+
+.skill-travel {
+width: 300px;
+background: url('../img/beach.png') no-repeat top ;
+padding-top: 100px;	
+}
+.skill-worth {
+width: 300px;
+background: url('../img/launch.png') no-repeat top ;
+padding-top: 100px;
+}
+
+.ticket {
+background: #ECF3F8;
+padding-bottom: 100px ;
+
+
+}
+
+.ticket-form{
+
+	
+	align-items:center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.ticket-title {
+text-align: center;
+padding-top: 100px;
+padding-bottom: 60px;
+}
+
+.input {
+	width: 343px;
+	height: 50px;
+	border: 1px solid #BBBBBB;
+	padding-left: 25px;
+
+}
+
+
+.form {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+}
+
+
+.input-name {
+	margin-bottom: 7px;
+}
+
+.input-mail {
+	margin-bottom: 23px;
+}
+.input-tel {
+	margin-bottom: 15px;
+}
+.input-comment {
+	margin-bottom: 14px;
+}
+
+.btn-long {
+
+width: 343px;
+height: 56px;
+
+
+}
+
+
+.rights {
+margin: 0px;
+text-align: center;
+color: white;
+font-size: 14px;
+}
+
+footer {
+	background: #164D7A;
+	padding: 58px 0px 65px;
+
+}
+
+.buter {
+display: flex;
+justify-content:center;
+}
 }
