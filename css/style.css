@@ -1,230 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	padding: 0;
 	margin: 0;
+	
 }
+.wrapper-main {
+	background-image: url(../img/bigsizepng.png);
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+
 
 div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
-}
-h1{
-	font-size: 37px;
-}
-
-h2{
-	font-size: 30px;
-}
-
-h3{
-	font-size: 19px;
-}
-
-span { 
-	font-size: 59px;
-	line-height: 0.6em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: white;
+  text-shadow: black 3px 3px;
+  letter-spacing: 13px;
 
 }
 
-header, footer p{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-}
-
-.forward, .ticket {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 15px;
-	
+section {
+	margin: 0 50px;
+background: rgb(255,255,255,0.1);
 }
 
 
-
-header{
-background: #4ebefe; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #4ebefe 0%, #378fd9 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #4ebefe 0%,#378fd9 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #4ebefe 0%,#378fd9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-padding-top: 66px;
-color: white;
-padding-bottom: 144px;
-}
- 
 .container {
-	width: 1170px;
-	margin: 0 auto;
+		padding: 20px 10px;
+	border-radius: 30px;
 }
-
-.wrapper {
-	display: flex;
-	justify-content: space-between;
-}
-
-.offer {
-	margin-top: 140px;
-	width: 560px;
-}
-
-.intro {
-	margin-bottom: 40px;
-	width: 415px;
-
-}
-.btn {
-background: #FFD429 ;
-color: black;
-display: block;
-width: 222px;
-padding: 19px;
-text-align: center;
-text-decoration: none;
-font-family: 'Montserrat', sans-serif;
-font-weight: 900;
-font-size: 15px;
-
-
-}
-.btn:hover {
-background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-
-}
-
-
-
-
-
-.ellipse {
-width: 519px;
-height: 519px;
-background: #41A5EB;
-border: 75px solid #5CB2EE ;
-border-radius: 100%;
-margin-top: 60px;
-}
-
-
-.travel {
-	position: relative;
-	top: -30px;
-	left: -40px;
-}
-
-
-.forward {
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-
-.forward-title, .skill-title, .skill-text {
-	text-align: center;}
-
-.skills {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 70px;
-}
-
-
-.skill-time {
-width: 300px;
-background: url('../img/time-machine.png') no-repeat top ;
-padding-top: 100px;
-}
-
-.skill-travel {
-width: 300px;
-background: url('../img/beach.png') no-repeat top ;
-padding-top: 100px;	
-}
-.skill-worth {
-width: 300px;
-background: url('../img/launch.png') no-repeat top ;
-padding-top: 100px;
-}
-
-.ticket {
-background: #ECF3F8;
-padding-bottom: 100px ;
-
-
-}
-
-.ticket-form{
-
+.title-main	{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
 	
-	align-items:center;
+}
+
+.main-menu {
+	color: white;
 	display: flex;
-	flex-direction: column;
+	justify-content: flex-end;
+	
+}
+
+nav li {
+display: inline-block;
+margin: auto 15px;
 
 }
 
-.ticket-title {
-text-align: center;
-padding-top: 100px;
-padding-bottom: 60px;
-}
-
-.input {
-	width: 343px;
-	height: 50px;
-	border: 1px solid #BBBBBB;
-	padding-left: 25px;
-
-}
-
-
-.form {
-	display: flex;
-	flex-direction: column;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 15px;
-}
-
-
-.input-name {
-	margin-bottom: 7px;
-}
-
-.input-mail {
-	margin-bottom: 23px;
-}
-.input-tel {
-	margin-bottom: 15px;
-}
-.input-comment {
-	margin-bottom: 14px;
-}
-
-.btn-long {
-
-width: 343px;
-height: 56px;
-
-
-}
-
-
-.rights {
-margin: 0px;
-text-align: center;
+nav li a {
+padding: 5px;
+background-color: rgba(32, 32, 32, 0.384);
+border-radius: 15px;
+text-decoration: none;
 color: white;
-font-size: 14px;
+text-shadow: black 1px 1px;
+box-shadow:  1px 1px 3px 3px;	
 }
 
-footer {
-	background: #164D7A;
-	padding: 58px 0px 65px;
+
+nav li:hover a {
+background-color: rgba(255, 187, 0, 0.74);
+color: black;	
+text-shadow: black 0px 0px;
+
+}
+.hello {
+color: white;
+font-size: bold;
+}
+
+.first-text {
+width: 50%;
+margin: 20px;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 900;	
+font-size: 26px;
+text-shadow: black 2px 2px;
 
 }
 
-.buter {
-display: flex;
-justify-content:center;
+.info {
+	padding: 100px 0 100px;
+background:url(../img/foto1.png)  no-repeat right;
+background-size: contain;
+	
 }
+
+
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
 }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.boxes {
+  
+display: grid;
+grid-template-columns:repeat(3, 1fr);
+column-gap: 10%;
+grid-auto-rows: minmax(100px, auto) ;
+text-align: center ;
+}
+
+.box {
+font-family: 'Ubuntu', sans-serif;
+font-weight: 900;	
+font-size: 26px;
+text-shadow: black 2px 2px;
+color: white;
+padding-top: 50px;
+}
+
+.box:first-child {
+margin-left: 10%;
+background: url(../img/launch.png) no-repeat top;
+}
+
+.box:nth-child(2) {
+background: url(../img/quality.png) no-repeat top;
+
+}
+
+.box:last-child {
+margin-right: 10%;
+background: url(../img/time-machine.png) no-repeat top;
+}
+
+
+.boxes:hover .box {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+
+.videobg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+  background: url(../img/img5.png) no-repeat #94a233;
+  background-size: cover;
+}
+
+.videobg > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto; 
+}
+
+
+
+
+.messengers {
+  
+  text-align: center;
+  }  
+  
+  
+  .messenger {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+   
+  }
+  
+.whatsapp {
+  margin: auto 30px;
+}
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+
+
+  .footer {
+  background: url(../img/footer1.jpg) no-repeat;
+  background-size: cover;
+  
+  }
+  
